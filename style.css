@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+
+body {
+    height: 100%;
+    width: 100%;
+
+}
+.aj{
+    background-color: aqua;
+    width: 25%;
+    margin: auto;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.button{
+    width: 66px; 
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: rgb(208, 118, 15);
+    
+}
+
+.row{
+    margin: 8px 0;
+}
+
+.row input{
+    text-align: right;
+    width: 298px;
+    font-size: 20px;
+    margin: 6px;
+    padding: 10px 38px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#history{
+    text-align: right;
+    margin: 6px;
+    font-size: 20px;
+    padding: 0px 38px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+#history-button{
+    width: 66px; 
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: rgb(208, 118, 15);
+}
+
+
+@media only screen and (max-width: 600px) {
+   .aj {
+    width: 81%;
+
+}
+  }
